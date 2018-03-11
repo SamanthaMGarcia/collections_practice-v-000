@@ -7,6 +7,7 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(strings)
-  strings.sort {|x,y| +(x <=> y)}
+  strings.sort {|left, right|
+    left.length <=> right.length
+  end
 end
-  
