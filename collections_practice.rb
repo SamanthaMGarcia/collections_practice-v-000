@@ -27,7 +27,7 @@ end
 
 def find_a(strings)
   strings.find_all do |word|
-  word[0] = "a"
+  if word[0] = "a"
   end
 end
   
