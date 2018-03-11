@@ -1,4 +1,4 @@
 def sort_array_asc(integers)
-  integers.sort do |integer| 
+  integers.sort {|x,y| (x <=> y)}
 end
 end
