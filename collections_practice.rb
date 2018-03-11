@@ -9,7 +9,6 @@ end
 def sort_array_char_count(strings)
   copy = []
   copy << strings.sort {|{|x,y| -(x <=> y)}
-  end
   copy
 end
   
