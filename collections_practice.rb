@@ -25,4 +25,10 @@ def kesha_maker(array)
 end
 
 def start_with?(strings)
-  strings.detect {|word| word
+  strings.detect {|word|}
+  word[0] = "a"
+end
+  
+  
+  
+  
