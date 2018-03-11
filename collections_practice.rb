@@ -28,6 +28,7 @@ end
 def start_with?(strings)
   strings.detect do |word|
   word[0] = "a"
+  end
 end
   
   
