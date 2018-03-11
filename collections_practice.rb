@@ -24,3 +24,6 @@ def kesha_maker(array)
     item[2] = "$"
   end
 end
+
+def start_with?(strings)
+  strings.detect
