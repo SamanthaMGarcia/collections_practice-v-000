@@ -7,6 +7,8 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(strings)
-  strings.sort! {|{|x,y| +(x <=> y)}
+  copy = []
+ copy << strings.sort {|x,y| +(x <=> y)}
+ copy
 end
   
