@@ -26,12 +26,7 @@ def kesha_maker(array)
 end
 
 def find_a(strings)
-  strings.find_all do |word|
-  if word[0] = "a"
-    true
-    else
-    false
-    end
+  strings.find_all do |word| word[0] = "a"
   end
 end
   
