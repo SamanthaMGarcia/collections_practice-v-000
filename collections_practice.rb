@@ -31,8 +31,8 @@ def find_a(strings)
     true
     else
     false
+    end
   end
-end
 end
   
   
