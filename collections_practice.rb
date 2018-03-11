@@ -25,7 +25,7 @@ def kesha_maker(array)
   end
 end
 
-def start_with?(strings)
+def find_a(strings)
   strings.detect do |word|
   word[0] = "a"
   end
