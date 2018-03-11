@@ -20,14 +20,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each {|item|}
+  array.each do |item|
     item[2] = "$"
+  end
 end
 
-def start_with?(strings)
-  strings.detect {|word|}
-  word[0] = "a"
-end
+
   
   
   
